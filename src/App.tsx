@@ -19,7 +19,7 @@ function App1() {
   );
 }
 
-export default App;
+export default App1;
 
 function App() {
   return (
