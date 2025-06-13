@@ -48,5 +48,46 @@
   <input type="text" id="user-input" placeholder="Apna sawal likhein..." />
 </div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+  const chatBox = document.getElementById("chat-box");
+  const userInput = document.getElementById("user-input");
+
+  const responses = {
+    "hello": "Assalamu Alaikum! Kaise madad kar sakta hoon?",
+    "price": "Hamara price depend karta hai service par. Aap detail bhejein.",
+    "contact": "Aap humein WhatsApp ya contact form se rabta kar sakte hain.",
+    "bye": "Allah Hafiz! Phir mulaqat hogi inshaAllah."
+  };
+
+  userInput.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      const userMsg = userInput.value.trim();
+      if (!userMsg) return;
+
+      appendMessage("Aap", userMsg);
+      const botReply = getBotResponse(userMsg);
+      setTimeout(() => appendMessage("Bot", botReply), 500);
+
+      userInput.value = "";
+    }
+  });
+
+  function appendMessage(sender, message) {
+    const msgDiv = document.createElement("div");
+    msgDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
+    chatBox.appendChild(msgDiv);
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+
+  function getBotResponse(msg) {
+    const lower = msg.toLowerCase();
+    for (let key in responses) {
+      if (lower.includes(key)) {
+        return responses[key];
+      }
+    }
+    return "Maaf kijiye, mujhe samajh nahi aaya. Aap thoda aur wazahat karein.";
+  }
+</script>
   </body>
 </html>
