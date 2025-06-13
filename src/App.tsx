@@ -9,7 +9,7 @@ import Navigation from './components/Navigation';
 import WhatsAppChat from './components/WhatsAppChat';
 import Chatbot from "./components/Chatbot"; // Adjust path if needed
 
-function App() {
+function App1() {
   return (
     <div>
       <h1>Welcome to Warya Website</h1>
