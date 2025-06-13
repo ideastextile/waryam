@@ -7,7 +7,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import WhatsAppChat from './components/WhatsAppChat';
-import React from "react";
 import Chatbot from "./components/Chatbot"; // Adjust path if needed
 
 function App() {
