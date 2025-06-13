@@ -77,6 +77,7 @@ const Chatbot: React.FC = () => {
   );
 };
 
+// ✅ INLINE CSS styles — required!
 const styles: { [key: string]: React.CSSProperties } = {
   chatbot: {
     position: "fixed",
