@@ -7,19 +7,20 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import WhatsAppChat from './components/WhatsAppChat';
-import Chatbot from "./components/Chatbot"; // Adjust path if needed
+import Chatbot from "./components/Chatbot"; // ✅ Make sure path is correct
 
-function App1() {
+const App: React.FC = () => {
   return (
     <div>
       <h1>Welcome to Warya Website</h1>
-      {/* Other content */}
+      {/* Other components and content */}
       <Chatbot />
     </div>
   );
-}
+};
 
-export default App1;
+export default App;
+
 
 function App() {
   return (
