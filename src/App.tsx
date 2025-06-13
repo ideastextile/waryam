@@ -14,12 +14,7 @@ function App() {
       <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-blue-900/20 to-cyan-900/20 pointer-events-none" />
       
       <Navigation />
-      
-      <div id="chatbot">
-  <div id="chat-header">🤖 Warya ChatBot</div>
-  <div id="chat-box"></div>
-  <input type="text" id="user-input" placeholder="Apna sawal likhein..." />
-</div>
+    
       
       <main className="relative z-10">
         <motion.div
