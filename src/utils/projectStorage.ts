@@ -40,7 +40,7 @@ const defaultProjects: Project[] = [
     description: 'A collaborative task management tool with real-time updates and team features.',
     image: 'https://www.teksmobile.com.au/blog/wp-content/uploads/2017/05/42_smart_parking.jpg',
     technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Socket.io'],
-    demoUrl: 'parkingmanger.netlify.app',
+    demoUrl: 'https://parkingmanger.netlify.app/',
     githubUrl: 'https://github.com/ideastextile',
     featured: false,
     category: 'Web Development',
