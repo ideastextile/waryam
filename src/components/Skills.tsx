@@ -5,9 +5,9 @@ const skillCategories = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'React', level: 95, color: 'from-blue-500 to-blue-600' },
-      { name: 'TypeScript', level: 90, color: 'from-blue-600 to-blue-700' },
-      { name: 'Next.js', level: 88, color: 'from-gray-700 to-gray-800' },
+      { name: 'Html', level: 95, color: 'from-blue-500 to-blue-600' },
+      { name: 'Css', level: 90, color: 'from-blue-600 to-blue-700' },
+      { name: 'javascript', level: 88, color: 'from-gray-700 to-gray-800' },
       { name: 'Tailwind CSS', level: 92, color: 'from-cyan-500 to-cyan-600' },
       { name: 'Bootstrap', level: 75, color: 'from-green-500 to-green-600' },
     ],
@@ -15,11 +15,12 @@ const skillCategories = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Node.js', level: 85, color: 'from-green-600 to-green-700' },
+      
       { name: 'Python', level: 80, color: 'from-yellow-500 to-yellow-600' },
-      { name: 'PostgreSQL', level: 82, color: 'from-blue-700 to-blue-800' },
       { name: 'Django', level: 78, color: 'from-green-700 to-green-800' },
-      { name: 'GraphQL', level: 73, color: 'from-pink-500 to-pink-600' },
+      { name: 'PostgreSQL', level: 82, color: 'from-blue-700 to-blue-800' },
+      { name: 'Rest_api', level: 73, color: 'from-pink-500 to-pink-600' },
+      { name: 'worldpress', level: 85, color: 'from-green-600 to-green-700' },
     ],
   },
   {
